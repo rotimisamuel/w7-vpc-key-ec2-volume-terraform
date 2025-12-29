@@ -3,5 +3,6 @@ resource "aws_s3_bucket" "s3-bucket" {
 
   tags = {
     Name = "w7-terraform-apc-app-new-s3"
+    Team = "Dev"
   }
 }
